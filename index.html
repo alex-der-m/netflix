@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg" href="icon/netflix-icon.svg">
+    <title>Netflis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-page">
+        <header class="header">
+            <div class="hero">
+                <img src="icon/netflix.svg" alt="logo" draggable="false">
+
+                <div class="signin">
+                    <h2>Sign In</h2>
+                    <form>
+                        <input type="text" name="name" id="name" placeholder="Email o número de teléfono" autocomplete="off">
+                        <input type="password" name="password" id="password" placeholder="Contraseña">
+                        <input type="submit" value="Iniciar sesión">
+                    </form>
+                    <div class="help">
+                        <div class="check">
+                            <input type="checkbox" name="remember" id="remember">
+                            <label for="remember">Recuérdame</label>
+                        </div>
+                        <div class="need">
+                            <a href="#">¿Necesitas ayuda?</a>
+                        </div>
+                    </div>
+                    <div class="footer-signin">
+                        <a href="#" class="login"><img src="icon/facebook.svg" class="facebook" alt="Icon">Conéctate con Facebook</a>
+                        <p class="new">¿Primera vez en Netflis? <a href="#">Suscríbete ahora.</a></p>
+
+                        <p class="protect">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot. <a href="#">Más info.</a></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <footer class="footer">
+            <div class="footer-info">
+                <p>¿Preguntas? Llama al <a href="telephone">0800-999-9999</a></p>
+                <ul class="footer-links">
+                    <li class="footer-links_items"><a href="#">Preguntas frecuentes</a></li>
+                    <li class="footer-links_items"><a href="#">Centro de ayuda</a></li>
+                    <li class="footer-links_items"><a href="#">Términos de uso</a></li>
+                    <li class="footer-links_items"><a href="#">Privacidad</a></li>
+                    <li class="footer-links_items"><a href="#">Preferencias de cookies</a></li>
+                    <li class="footer-links_items"><a href="#">Información corporativa</a></li>
+                </ul>
+
+                <select name="language" id="language">
+                    <option value="es">Español</option>
+                    <option value="en">English</option>
+                </select>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
